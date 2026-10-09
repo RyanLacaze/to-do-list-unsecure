@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+# Données locales et artefacts de CI
+db.sqlite3
+.coverage
+coverage.xml
+pip-audit.json
+pip-audit-gate.rc
+.scannerwork/
+# Jamais de clé privée dans Git
+*.key
+id_*
+!*.pub

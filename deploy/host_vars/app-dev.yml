@@ -1,0 +1,3 @@
+# Serveur de recette : toutes les branches peuvent y être déployées
+env_type: dev
+django_debug: true

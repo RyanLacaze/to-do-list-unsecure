@@ -1,0 +1,3 @@
+# Serveur de production : uniquement la branche main (code validé)
+env_type: prod
+django_debug: false

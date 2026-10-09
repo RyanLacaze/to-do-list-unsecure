@@ -1,0 +1,11 @@
+# Inventaire utilisé par Jenkins (job todolist-deploy).
+# Remplace les X par les IP de tes VM (les mêmes que dans TpVagrant/inventory.yaml).
+my_infra:
+  hosts:
+    app-dev:
+      ansible_host: 192.168.31.196
+    app-prod1:
+      ansible_host: 192.168.31.197
+  vars:
+    ansible_user: admin
+    ansible_python_interpreter: /usr/bin/python3
