@@ -11,7 +11,7 @@ class TaskModelTest(TestCase):
     def test_task_creation_defaults(self):
         task = Task.objects.create(title="Test task")
 
-        self.assertEqual(task.title, "Test task")
+        self.assertEqual(task.title, "Autre chose")
         self.assertFalse(task.complete)
         self.assertIsNotNone(task.created)
 
